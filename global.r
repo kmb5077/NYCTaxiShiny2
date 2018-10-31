@@ -5,10 +5,11 @@ library(shiny)
 library(shinydashboard)
 library(googleVis)
 library(rsconnect)
+library(zoo)
+library(plotly)
 
 
-
-data_sampled = read.csv('./taxi8Mclean.csv', stringsAsFactors = FALSE)
+data_sampled = read.csv('./taxi1M.csv', stringsAsFactors = FALSE)
 taxi_zone = read.csv('./taxizone.csv', stringsAsFactors = FALSE, header = TRUE)
 databyyears= read.csv('taxidatabymonth.csv', stringsAsFactors = FALSE, header = TRUE)
 databyyears$year=str_extract(databyyears$filenames,pattern = '\\d{4}')
@@ -35,3 +36,4 @@ prettytable=data_sampled %>%
          Totat_Tip=tip_amount,
          Total_Amt=total_amount
            )
+

@@ -1,0 +1,13 @@
+name: taxiproject
+title:
+username:
+account: kburgess
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 541504
+bundleId: 1673244
+url: https://kburgess.shinyapps.io/taxiproject/
+when: 1540948006.03139
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: taxippt.pptx|Untitled.ipynb|.ipynb_checkpoints/Untitled-checkpoint.ipynb

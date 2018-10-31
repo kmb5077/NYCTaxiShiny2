@@ -34,10 +34,10 @@ dashboardPage(
             fluidRow(box(strong(h1("Welcome to my NYC Taxi Data Shiny App", align="center")),solidHeader = TRUE, background = 'blue',width = 12)),
             fluidRow(plotlyOutput("plot2")),
             fluidRow(box(strong(h2('Taxi Facts',align='center')),
-                         h4('-NYC taxi rider ship is down 53% since 2014, averaging an annual ridership of 13.8M in 2014 down to 8.9M in 2018'),br(),
+                         h4('-NYC taxi ridership is down 53% since 2014, averaging a monthly ridership of 13.8M in 2014 down to 8.9M in 2018'),br(),
                          h4('-The average cost per ride has actually increased from $15.25 to $16.13, however the decrease in the number of rides is not covered by the increase in average cost per ride'),br(),
                          h4('-Result is a loss of $663M annual revenue between 2014 and 2017, 2.5B and 1.85B respectively'),br(),
-                         h4('-UBER introducded to NYC'),br(),
+                         h4('-UBER introducded to NYC in 2001'),br(),
                          h4('-July 2017 UBER overtook yellow cabs in average daily ridership'),br(),
                          h4('-UBER did lose a vote in Aug 18, allowing the city to place a cap on the for-hire vehicles(which UBER operates as) for a year'),
                          
